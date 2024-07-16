@@ -6,51 +6,51 @@ import { Tabs } from "./ui/tabs";
 export default function TabsDemo() {
   const tabs = [
     {
-      title: "Product",
+      title: "Case Study 1",
       value: "product",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Product Tab</p>
+          <p>Case Study 1</p>
           <DummyContent />
         </div>
       ),
     },
     {
-      title: "Services",
-      value: "services",
+      title: "Case Study 2",
+      value: "Case Study 2",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Services tab</p>
+          <p>Case Study 2</p>
           <DummyContent />
         </div>
       ),
     },
     {
-      title: "Playground",
-      value: "playground",
+      title: "Case Study 3",
+      value: "Case Study 3",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Playground tab</p>
+          <p>Case Study 3</p>
           <DummyContent />
         </div>
       ),
     },
     {
-      title: "Content",
+      title: "PRD",
       value: "content",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Content tab</p>
+          <p>Product Requirement Document</p>
           <DummyContent />
         </div>
       ),
     },
     {
-      title: "Random",
+      title: "Product Teardown",
       value: "random",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Random tab</p>
+          <p>Product Teardown</p>
           <DummyContent />
         </div>
       ),

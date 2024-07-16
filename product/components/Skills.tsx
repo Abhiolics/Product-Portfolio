@@ -16,16 +16,16 @@ export default function WobbleCardDemo() {
         <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
           Product Manager
         </h2>
-        <p className="mt-4 text-left text-base text-neutral-200">
+        <p className="mt-4 text-left text-base text-neutral-200 z-2">
           Communicating with customers, designers, developers, software engineers, data analysts, and driving an idea into a real product affecting people's lives always makes me so satisfied. Thanks to running my startup, cafekado.org, I have gained a collection of abilities and skills ranging from marketing and design to financial matters and teamwork. You need to know many things when you are the founder of a startup!
         </p>
       </div>
       <Image
-        src="/linear.webp"
-        width={500}
+        src="/pmm.png"
+        width={300}
         height={500}
         alt="linear demo image"
-        className="absolute right-0 lg:right-10 grayscale filter bottom-0 lg:bottom-10 object-contain rounded-2xl"
+        className="absolute z-0 right-0 lg:right-10 grayscale filter bottom-0 lg:bottom-10 object-contain rounded-2xl"
       />
     </WobbleCard>
     <WobbleCard containerClassName="col-span-1 min-h-[300px]">
@@ -41,16 +41,16 @@ export default function WobbleCardDemo() {
         <h2 className="max-w-sm md:max-w-lg text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
           Front-End Development
         </h2>
-        <p className="mt-4 max-w-[26rem] text-left text-base text-neutral-200">
+        <p className="mt-4 max-w-[26rem] text-left text-base text-neutral-200 ">
           Designing web applications and websites was not satisfying for me. I wanted to be able to create what I imagine, so I acquired many skills. As a computer engineer with a background in C#, PHP, and C, it was not so hard. I am always eager to catch new technologies and libraries in UI development. About two years ago, I started learning and working with Vue.js, which has been so joyful!
         </p>
       </div>
       <Image
-        src="/linear.webp"
-        width={500}
+        src="/ft.png"
+        width={400}
         height={500}
         alt="linear demo image"
-        className="absolute right-0 lg:right-10 bottom-0 lg:bottom-10 object-contain rounded-2xl"
+        className="absolute visible sm:hidden right-0 z-0 lg:right-10 bottom-0 lg:bottom-10 object-contain rounded-2xl"
       />
     </WobbleCard>
   </div>
