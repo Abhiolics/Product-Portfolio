@@ -19,7 +19,7 @@ export default function HeroScrollDemo() {
         }
       >
         <Image
-          src={`/woww.png`}
+          src={`/www.png`}
           alt="hero"
           height={720}
           width={1400}
