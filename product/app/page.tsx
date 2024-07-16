@@ -9,6 +9,8 @@ import MyProcess from "@/components/MyProcess"
 import { useEffect, useState } from "react"
 import Projects from "@/components/Projects"
 import Strength from "@/components/Strength"
+import Tool from "@/components/Tool"
+import Clients from "@/components/Clients"
 
 
 
@@ -25,8 +27,8 @@ export default function Home() {
   return (
     <>
      <div className={darkMode ? 'dark' : ''}>
-     <div className="dark:bg-gray-800 min-h-screen">
-    <TracingBeam>
+     <div className="dark:bg-gray-800 min-h-screen ">
+    <TracingBeam className="">
     <LandingPage/>
     <Navbar/>
     <Intro/>
@@ -35,7 +37,9 @@ export default function Home() {
     {/* <Process/> */}
     <MyProcess/>
     <Projects/>
-    <Strength/>
+    {/* <Strength/> */}
+    <Tool/>
+    <Clients/>
     </TracingBeam >
 
     </div>
