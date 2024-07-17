@@ -11,6 +11,7 @@ import Projects from "@/components/Projects"
 import Strength from "@/components/Strength"
 import Tool from "@/components/Tool"
 import Clients from "@/components/Clients"
+import Footer from "@/components/Footer"
 
 
 
@@ -40,6 +41,7 @@ export default function Home() {
     {/* <Strength/> */}
     <Tool/>
     <Clients/>
+    <Footer/>
     </TracingBeam >
 
     </div>
