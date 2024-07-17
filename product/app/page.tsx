@@ -1,52 +1,57 @@
 "use client"
-import LandingPage from "@/components/LandingPage"
-import Navbar from "@/components/Navbar"
-import Intro from "@/components/Intro"
-import Skills from "@/components/Skills"
-import { TracingBeam } from "@/components/ui/tracing-beam"
-import Process from "@/components/Process"
-import MyProcess from "@/components/MyProcess"
-import { useEffect, useState } from "react"
-import Projects from "@/components/Projects"
-import Strength from "@/components/Strength"
-import Tool from "@/components/Tool"
-import Clients from "@/components/Clients"
-import Footer from "@/components/Footer"
+import React, { useEffect, useState } from "react";
+import SplashScreen from "@/components/SplashScreen";
+import LandingPage from "@/components/LandingPage";
+import Navbar from "@/components/Navbar";
+import Intro from "@/components/Intro";
+import Skills from "@/components/Skills";
+import { TracingBeam } from "@/components/ui/tracing-beam";
+import MyProcess from "@/components/MyProcess";
+import Projects from "@/components/Projects";
+import Tool from "@/components/Tool";
+import Clients from "@/components/Clients";
+import Footer from "@/components/Footer";
 
-
-
-export default function Home() {
-
+const Home = () => {
+  const [loading, setLoading] = useState(true);
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
+    // Simulate loading delay (replace with actual data fetching logic)
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000); // Adjust delay as needed
+
     // Check if the user prefers dark mode
-    const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const prefersDarkMode =
+      window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
     setDarkMode(prefersDarkMode);
   }, []);
 
   return (
     <>
-     <div className={darkMode ? 'dark' : ''}>
-     <div className="dark:bg-gray-800 min-h-screen ">
-    <TracingBeam className="">
-    <LandingPage/>
-    <Navbar/>
-    <Intro/>
-    <Skills/>
-   
-    {/* <Process/> */}
-    <MyProcess/>
-    <Projects/>
-    {/* <Strength/> */}
-    <Tool/>
-    <Clients/>
-    <Footer/>
-    </TracingBeam >
-
-    </div>
-    </div>
-    
+      {loading ? (
+        <SplashScreen />
+      ) : (
+        <div className={darkMode ? "dark" : ""}>
+          <div className="dark:bg-gray-800 min-h-screen overflow-hidden">
+            <TracingBeam className="">
+              <LandingPage />
+              <Navbar />
+              <Intro />
+              <Skills />
+              <MyProcess />
+              <Projects />
+              <Tool />
+              <Clients />
+              <Footer />
+            </TracingBeam>
+          </div>
+        </div>
+      )}
     </>
-  )
-}
+  );
+};
+
+export default Home;
+

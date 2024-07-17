@@ -6,15 +6,17 @@ import Link from "next/link";
 
 export default function LayoutGridDemo() {
   return (
-    <div className="h-screen py-20 w-full bg-gray-700">
+    <div className="min-h-screen py-20 w-full bg-gray-700  ">
       <h1 className="text-4xl text-center font-semibold text-white">Here are my thoughts</h1>
+    
       <LayoutGrid cards={cards} />
       {/* <button className="text-xl font-semibold bg-green-500 text-white "> Back to Home</button> */}
       <div className="flex justify-center items-center">
         <Link href={`/`}>
-      <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+      <button className="inline-flex h-12 mb-10 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
         Reurn to Home
       </button>
+      
       </Link>
       </div>
     </div>

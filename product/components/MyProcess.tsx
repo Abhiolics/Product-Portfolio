@@ -7,9 +7,12 @@ import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 export default function CanvasRevealEffectDemo() {
   return (
     <>
+    <div>
+    <h1 className="text-2xl text-white font-semibold text-center font-['Monterrsat']">My Work Process</h1>
+    </div>
       <div className="py-20  flex flex-col lg:flex-row items-center justify-center bg-transparent  dark:bg-transparent  w-full gap-4 mx-auto px-10 overflow-hidden">
 
-        <h1 className="text-2xl text-white font-semibold font-['Monterrsat']">My Work Process</h1>
+       
         <Card title="Sheetal is Nisha" icon={<AceternityIcon />}>
           <CanvasRevealEffect
             animationSpeed={5.1}

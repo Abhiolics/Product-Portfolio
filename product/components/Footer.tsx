@@ -9,18 +9,18 @@ const Footer = () => {
   return (
     <footer className="w-full mb-[100px] pb-10 p-10 bg-transparent " id="contact">
       {/* background grid */}
-      {/* <div className="w-full absolute left-0 -bottom-72 min-h-96 ">
+      <div className="w-full absolute left-0 -bottom-72 min-h-96 ">
         <img
           src="/footer-grid.svg"
           alt="grid"
           className="w-full h-full opacity-50 "
         />
-      </div> */}
+      </div>
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw] text-4xl font-semibold  text-white">
           Ready to take your digital
-          presence to the <br /> <span className="text-[#8b5cf6] text-4xl font-semibold "> Next level?</span>
+           presence to the<br /> <span className="text-[#8b5cf6] text-4xl font-semibold "> Next level?</span>
         </h1>      <Image
             src="/foot.svg"
             width={80}
