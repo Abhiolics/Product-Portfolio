@@ -62,7 +62,7 @@ export default function TabsDemo() {
 
     
     <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative p-8  flex flex-col max-w-5xl mx-auto   items-start justify-start my-30">
-    <h1 className="font-['Space_Grotesk'] text-white text-4xl font-semibold text-center mb-8">My Projects</h1>
+    <h1 className="font-['Space_Grotesk'] text-white text-4xl font-semibold text-center mb-8">My <span className="Work Process text-[#8b5cf6]  text-4xl font-semibold">Projects</span> </h1>
       <Tabs tabs={tabs} />
     </div>
    
@@ -72,7 +72,7 @@ export default function TabsDemo() {
 const DummyContent = () => {
   return (
     <Image
-      src="/linear.webp"
+      src="/www.png"
       alt="dummy image"
       width="1000"
       height="1000"

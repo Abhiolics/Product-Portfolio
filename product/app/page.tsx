@@ -12,6 +12,7 @@ import Tool from "@/components/Tool";
 import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero"
+import Experience from "@/components/Experience";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -41,7 +42,8 @@ const Home = () => {
               <Hero/>
               <Navbar />
               <Intro />
-              <Skills />
+              <Experience/>
+              {/* <Skills /> */}
               <MyProcess />
               <Projects />
               <Tool />

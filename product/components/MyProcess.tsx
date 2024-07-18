@@ -8,7 +8,7 @@ export default function CanvasRevealEffectDemo() {
   return (
     <>
     <div>
-    <h1 className="text-4xl text-white font-semibold text-center font-['Space_Grotesk']">My Work Process</h1>
+    <h1 className="text-4xl text-white font-semibold text-center font-['Space_Grotesk']">My  <span className="text-[#8b5cf6] font-semibold text-4xl">Work Process</span></h1>
     </div>
       <div className="py-20  flex flex-col lg:flex-row items-center justify-center bg-transparent  dark:bg-transparent  w-full gap-4 mx-auto px-10 overflow-hidden">
 
