@@ -11,6 +11,7 @@ import Projects from "@/components/Projects";
 import Tool from "@/components/Tool";
 import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
+import Hero from "@/components/Hero"
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -34,9 +35,10 @@ const Home = () => {
         <SplashScreen />
       ) : (
         <div className={darkMode ? "dark" : ""}>
-          <div className="dark:bg-gray-800 min-h-screen overflow-hidden">
+          <div className="dark:bg-gray-950 min-h-screen overflow-hidden">
             <TracingBeam className="">
-              <LandingPage />
+              {/* <LandingPage /> */}
+              <Hero/>
               <Navbar />
               <Intro />
               <Skills />

@@ -1,7 +1,9 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
 import { cn } from "@/lib/utils";
+
+
 
 export  const TextGenerateEffect = ({
   words,
@@ -25,14 +27,31 @@ export  const TextGenerateEffect = ({
     );
   }, [scope.current]);
 
+  const wordss = `Excited about Problems & even more hyped about Solving them.`;
+  const wordssArray = words.split(" ");
+
+  
+
   const renderWords = () => {
+    
+  
     return (
       <motion.div ref={scope}>
-        {wordsArray.map((word, idx) => {
+        {wordssArray.map((word, idx) => {
+          let className = "opacity-0 ";
+  
+          if (word === "Problems") {
+            className += "text-orange-500";
+          } else if (word === "Solving") {
+            className += "text-green-500";
+          } else {
+            className += idx > 3 ? "text-[#45ff42]" : "dark:text-white text-white";
+          }
+  
           return (
             <motion.span
               key={word + idx}
-              className="dark:text-white text-white text-6xl opacity-0"
+              className={className}
             >
               {word}{" "}
             </motion.span>
@@ -43,9 +62,9 @@ export  const TextGenerateEffect = ({
   };
 
   return (
-    <div className={cn("font-bold", className)}>
+    <div className={cn("font-semibold", className)}>
       <div className="mt-4">
-        <div className=" dark:text-white text-white text-2xl leading-snug tracking-wide">
+        <div className=" dark:text-white text-white text-2xl lg:text-4xl font-['Montserrat'] leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>
