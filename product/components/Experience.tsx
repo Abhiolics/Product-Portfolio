@@ -45,7 +45,7 @@ const Experience = () => {
                 className="lg:w-32 md:w-20 w-16"
               />
               <div className="lg:ms-5">
-                <h1 className="text-start text-xl md:text-2xl font-bold ">
+                <h1 className="text-start text-xl md:text-2xl font-semibold ">
                   {card.title}
                 </h1>
                 <div 
@@ -54,7 +54,7 @@ const Experience = () => {
                 {/* <Link className="flex" target="blank" href="https://papayacoders.in/"><img className="w-8 rounded-full " src={card.link} alt={card.link}/></Link> */}
                 <p className="text-start flex text-xl md:text-2xl  "> {card.comp}</p>
                 </div>
-                <p className="text-start text-white-100 mt-3 font-semibold">
+                <p className="text-start text-white-100 mt-3  font-['Bricolage_Grotesque'] ">
                   {card.desc}
                 </p>
               </div>

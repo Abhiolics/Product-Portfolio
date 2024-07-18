@@ -3,19 +3,23 @@ import React, { useState, useRef, useEffect } from "react";
 import { LayoutGrid } from "@/components/ui/layout-grid";
 import { TailwindcssButtons } from "@/components/buttons";
 import Link from "next/link";
+import { Button } from "@/components/ui/MovingBorders";
 
 export default function LayoutGridDemo() {
   return (
-    <div className="min-h-screen py-20 w-full bg-gray-700  ">
-      <h1 className="text-4xl text-center font-semibold text-white">Here are my thoughts</h1>
+    <div className="min-h-screen py-20 w-full bg-gray-900  ">
+      <h1 className="text-4xl text-center font-semibold text-white font-['Space_Grotesk']">Here are my <span className="font-['Space_Grotesk'] text-[#8b5cf6]  font-semibold text-4xl">Thoughts</span> </h1>
     
       <LayoutGrid cards={cards} />
       {/* <button className="text-xl font-semibold bg-green-500 text-white "> Back to Home</button> */}
       <div className="flex justify-center items-center">
         <Link href={`/`}>
-      <button className="inline-flex h-12 mb-10 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-        Reurn to Home
-      </button>
+        <Button
+        borderRadius="1.75rem"
+        className="bg-slate-700 font-['Space_Grotesk'] font-semibold  w-36 h-[3rem] dark:bg-slate-900 text-white dark:text-white border-slate-800 dark:border-slate-800"
+      >
+        Return to Home
+      </Button>
       
       </Link>
       </div>

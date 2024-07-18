@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Tabs } from "./ui/tabs";
 import Link from "next/link";
+import { Button } from "./ui/MovingBorders";
 
 export default function TabsDemo() {
   const tabs = [
