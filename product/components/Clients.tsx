@@ -4,7 +4,7 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 export default function InfiniteMovingCardsDemo() {
   return (
     <div className=" h-[30rem] mt-20 hidden lg:block">
-      <h1 className="text-2xl  lg:text-4xl font-semibold text-center mt-8 text-white font-['Space_Grotesk'] ">Here from other </h1>
+      <h1 className="text-2xl  lg:text-4xl font-semibold text-center mt-8 text-white font-['Space_Grotesk'] ">Valuable <span className="text-[#8b5cf6] text-4xl font-semibold">Words </span> </h1>
     <div className="hidden md:block mt-8=10 p-2 rounded-md flex flex-col antialiased bg-white dark:bg-transparent dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards
         items={testimonials}
@@ -19,31 +19,31 @@ export default function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "Abhay did an outstanding job redesigning my Makeup Munch website. His professionalism and attention to detail resulted in a stunning, user-friendly site that perfectly represents my brand. I highly recommend Abhay for his exceptional design skills and dedication to excellence.",
+    name: "Rahul Chaubey",
+    title: "CEO @MakeUp Munch",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+      "Abhay's leadership in the product development of BookMySession was exceptional. He guided the team with strategic vision and ensured a seamless, user-centric experience. His dedication and expertise were instrumental in the successful launch of our platform.",
+    name: "Alok Kumar Dubey",
+    title: "Founder @Bookmysession",
   },
   {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+    quote: "Abhay displayed exceptional project management skills while leading our team. His ability to coordinate tasks, manage timelines, and maintain clear communication was crucial to our project's success. We couldn't have asked for a better leader.",
+    name: "Yash",
+    title: "SDE @Bluestock",
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
+      "Abhay Pratap Singh brought innovative solutions to our project, addressing complex challenges with creativity and expertise. His forward-thinking approach and technical skills were key to the project's success.",
+    name: "Shubham Pandey",
+    title: "Director @PapayaCoders Pvt. Ltd.",
+  },
+  {
+    quote:
+      "Abhay Pratap Singh's freelance work on our marketing materials was outstanding. He delivered high-quality designs that captured our brand's essence and effectively communicated our message. His professionalism and creativity are unmatched.",
     name: "Herman Melville",
-    title: "Moby-Dick",
+    title: "Founder @100K Designs",
   },
 ];

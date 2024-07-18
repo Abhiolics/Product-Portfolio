@@ -19,8 +19,8 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[55vw] text-2xl lg:text-5xl font-semibold  text-white font-['Space_Grotesk']">
-          Ready to take your digital
-           presence to the<span className="text-[#8b5cf6] text-2xl  lg:text-5xl font-semibold "> Next level?</span>
+          Ready to take your Digital
+           Presence to the<span className="text-[#8b5cf6] text-2xl  lg:text-5xl font-semibold "> Next level?</span>
         </h1>      <Image
             src="/foot.svg"
             width={80}
@@ -42,7 +42,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 mb-6 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal  font-light mb-2 text-white ">
-        Created with bugs, laughs & &#128155; by <span className="text-[#45ff42] md:text-base text-sm md:font-normal  font-light   mb-2">Abhay Pratap Singh</span> 
+        Created with bugs, laughs & &#128155; by <span className="text-[#45ff42] md:text-base text-sm md:font-normal  font-light font-['Bricolage_Grotesque']   mb-2">Abhay Pratap Singh</span> 
         </p>
         
 

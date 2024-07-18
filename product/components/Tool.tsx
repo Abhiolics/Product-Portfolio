@@ -5,25 +5,40 @@ import { div } from "three/examples/jsm/nodes/Nodes.js";
 const people = [
   {
     id: 1,
-    name: "John Doe",
-    designation: "Identify problem",
+    name: "Step 1",
+    designation: "Identify Problem",
     image: 
-      "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+      "https://img.icons8.com/3d-fluency/94/search.png",
   },
   {
     id: 2,
-    name: "Robert Johnson",
-    designation: "Users Pain Points",
+    name: "Step 2",
+    designation: "Research about Pain Points",
     image: 
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      "https://img.icons8.com/3d-fluency/94/reading.png",
   },
+  // {
+  //   id: 3,
+  //   name: "Step 3",
+  //   designation: "Data Analysis",
+  //   image: 
+  //     "https://img.icons8.com/3d-fluency/94/statistics.png",
+  // },
   {
     id: 3,
-    name: "Jane Smith",
-    designation: "Data Scientist",
+    name: "Step 4",
+    designation: "Make Plan",
     image: 
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      "https://img.icons8.com/3d-fluency/94/goal.png",
   },
+  {
+    id: 5,
+    name: "Step 5",
+    designation: "Conclusion",
+    image: 
+      "https://img.icons8.com/3d-fluency/94/flash-on.png",
+  },
+ 
  
 ];
 
