@@ -17,7 +17,7 @@ const Footer = () => {
         />
       </div>
 
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mt-20 lg:mt-5">
         <h1 className="heading lg:max-w-[55vw] text-2xl lg:text-5xl font-semibold  text-white font-['Space_Grotesk']">
           Ready to take your Digital
            Presence to the<span className="text-[#8b5cf6] text-2xl  lg:text-5xl font-semibold "> Next level?</span>

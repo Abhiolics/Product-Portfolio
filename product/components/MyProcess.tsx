@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
+    <section className="w-full py-20 p-10">
       <h1 className="heading flex justify-center items-center gap-3 text-4xl font-semibold text-white font-['Space_Grotesk']">
         My <span className="text-[#8b5cf6] text-4xl font-semibold ">Approach</span>  
             {/* <Image
