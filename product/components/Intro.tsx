@@ -7,7 +7,7 @@ const words = `Oxygen gets you high. In a catastrophic emergency, we're taking g
 export default function TextGenerateEffectDemo() {
   return (
     <div className="p-10">
-<h1 className="text-4xl font-bold text-center text-white">About Me</h1>
+<h1 className="text-4xl font-semibold text-center text-white font-['Space_Grotesk']">About Me</h1>
 {/* <TextGenerateEffect className="text-center text-sm" words={words} /> */}
 <div className="flex justify-center">
 <p className="font-semibold text-white text-center w-full md:w-3/5 p-4 font-['Montserrat'] text-xs sm:text-xs md:text-base lg:text-lg leading-tight md:leading-snug lg:leading-relaxed">

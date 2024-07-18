@@ -18,7 +18,7 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw] text-2xl lg:text-5xl font-semibold  text-white">
+        <h1 className="heading lg:max-w-[55vw] text-2xl lg:text-5xl font-semibold  text-white font-['Space_Grotesk']">
           Ready to take your digital
            presence to the<span className="text-[#8b5cf6] text-2xl  lg:text-5xl font-semibold "> Next level?</span>
         </h1>      <Image
@@ -28,7 +28,7 @@ const Footer = () => {
             alt="emoji"
             className="inline-block justify-center align-middle"
           />
-        <p className="text-white md:mt-10 my-5 text-xl  text-center">
+        <p className="text-white md:mt-10 my-5 text-sm lg:text-2xl  text-center font-['Bricolage_Grotesque']">
           Reach out to me today and let&apos;s discuss how I can help you to
           achieve your goals.
         </p>

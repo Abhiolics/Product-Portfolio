@@ -3,8 +3,8 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 export default function InfiniteMovingCardsDemo() {
   return (
-    <div>
-      <h1 className="text-2xl lg:text-4xl font-semibold text-center mt-8 text-white  ">here from other ones</h1>
+    <div className=" h-[30rem] mt-20 hidden lg:block">
+      <h1 className="text-2xl  lg:text-4xl font-semibold text-center mt-8 text-white font-['Space_Grotesk'] ">Here from other </h1>
     <div className="hidden md:block mt-8=10 p-2 rounded-md flex flex-col antialiased bg-white dark:bg-transparent dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards
         items={testimonials}

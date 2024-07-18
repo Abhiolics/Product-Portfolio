@@ -58,9 +58,14 @@ export default function TabsDemo() {
   ];
 
   return (
-    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative p-8  flex flex-col max-w-5xl mx-auto   items-start justify-start my-40">
+ 
+
+    
+    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative p-8  flex flex-col max-w-5xl mx-auto   items-start justify-start my-30">
+    <h1 className="font-['Space_Grotesk'] text-white text-4xl font-semibold text-center mb-8">My Projects</h1>
       <Tabs tabs={tabs} />
     </div>
+   
   );
 }
 
