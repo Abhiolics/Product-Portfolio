@@ -18,9 +18,9 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw] text-4xl font-semibold  text-white">
+        <h1 className="heading lg:max-w-[45vw] text-2xl lg:text-5xl font-semibold  text-white">
           Ready to take your digital
-           presence to the<br /> <span className="text-[#8b5cf6] text-4xl font-semibold "> Next level?</span>
+           presence to the<span className="text-[#8b5cf6] text-2xl  lg:text-5xl font-semibold "> Next level?</span>
         </h1>      <Image
             src="/foot.svg"
             width={80}
