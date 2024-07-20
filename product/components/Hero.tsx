@@ -36,7 +36,7 @@ export default function BackgroundBeamsDemo() {
             alt="hero"
             height={520}
             width={700}
-            className="mx-auto rounded-2xl object-cover h-full object-left-top "
+            className="mx-auto rounded-2xl object-cover h-full object-left-top z-30"
             draggable={false}
           />
         </div>

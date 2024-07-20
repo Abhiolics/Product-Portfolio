@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
       
       </div>
-      <h1 className="text-gray-200 text-cente font-['Bricolage_Grotesque'] text-xs">for better view Open in PC or Laptop</h1>
+      <h1 className="text-gray-200 text-cente font-['Bricolage_Grotesque'] text-xs">⚠️ For better view, Open in PC or Laptop (Work in Progress)</h1>
     </footer>
   );
 };
