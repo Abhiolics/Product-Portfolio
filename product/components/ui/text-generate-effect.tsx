@@ -43,9 +43,9 @@ export  const TextGenerateEffect = ({
           if (word === "Problems") {
             className += "text-orange-500";
           } else if (word === "Solving") {
-            className += "text-green-500";
+            className += "text-[#45ff42]";
           } else {
-            className += idx > 3 ? "text-[#45ff42]" : "dark:text-white text-white";
+            className += idx > 9 ? "text-[#45ff42]" : "dark:text-white text-white";
           }
   
           return (
@@ -64,7 +64,7 @@ export  const TextGenerateEffect = ({
   return (
     <div className={cn("font-semibold", className)}>
       <div className="mt-4">
-        <div className=" dark:text-white text-white text-2xl lg:text-4xl font-['Montserrat'] leading-snug tracking-wide">
+        <div className=" dark:text-white text-white text-2xl lg:text-3xl font-['Montserrat'] leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>
