@@ -5,6 +5,7 @@ import MagicButton from "./ui/magicbutton";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "./ui/MovingBorders";
+import { Cover } from "./ui/cover";
 
 const Footer = () => {
   return (
@@ -32,17 +33,24 @@ const Footer = () => {
       </div>
       
       <div className="flex flex-col items-center mt-20 lg:mt-5">
-        <h1 className="heading lg:max-w-[55vw] text-2xl lg:text-5xl font-semibold  text-white font-['Space_Grotesk']">
+        <h1 className="heading w-full lg:max-w-[85vw] text-2xl lg:text-4xl font-semibold  text-white font-['Space_Grotesk']">
           Ready to take your Digital
-           Presence to the<span className="text-[#8b5cf6] text-2xl  lg:text-5xl font-semibold "> Next level?</span>
-        </h1>      <Image
+           Presence to the<span className="text-[#8b5cf6] text-2xl  lg:text-5xl font-semibold "><Cover> Next level?   <Image
+            src="/foot.svg"
+            width={40}
+            height={40}
+            alt="emoji"
+            className="inline-block justify-center align-middle"
+          /></Cover></span>
+        </h1>     
+         {/* <Image
             src="/foot.svg"
             width={80}
             height={50}
             alt="emoji"
             className="inline-block justify-center align-middle"
-          />
-        <p className="text-white md:mt-10 my-5 text-sm lg:text-2xl  text-center font-['Bricolage_Grotesque']">
+          /> */}
+        <p className="text-white md:mt-10 my-5 text-sm lg:text-xl  text-center font-['Bricolage_Grotesque']">
           Reach out to me today and let&apos;s discuss how I can help you to
           achieve your goals.
         </p>
@@ -74,7 +82,7 @@ const Footer = () => {
         </div>
       
       </div>
-      <h1 className="text-gray-200 text-cente font-['Bricolage_Grotesque'] text-xs">⚠️ For better view, Open in PC or Laptop (Work in Progress)</h1>
+      {/* <h1 className="text-gray-200 text-cente font-['Bricolage_Grotesque'] text-xs">⚠️ For better view, Open in PC or Laptop (Work in Progress)</h1> */}
     </footer>
   );
 };

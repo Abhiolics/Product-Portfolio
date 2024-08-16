@@ -13,6 +13,8 @@ import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero"
 import Experience from "@/components/Experience";
+import Stuff from "@/components/Stuff";
+import LandingScreen from "@/components/LandingScreen";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -38,17 +40,18 @@ const Home = () => {
         <div className={darkMode ? "dark" : ""}>
           <div className="dark:bg-gray-950 min-h-screen overflow-hidden">
             <TracingBeam className="">
-              {/* <LandingPage /> */}
               <Hero/>
               <Navbar />
+              {/* <LandingScreen/> */}
               <Intro />
               <Experience/>
-              {/* <Skills /> */}
-              <MyProcess />
+              
               <Projects />
-              <Tool />
+              <Stuff/>
+              <MyProcess />
               <Clients />
               <Footer />
+              
             </TracingBeam>
           </div>
         </div>

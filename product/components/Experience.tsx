@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Experience = () => {
   return (
-    <div className="py-20 w-full p-10">
+    <div className="py-20 w-full p-12">
       <h1 className="heading text-4xl font-semibold text-white text-center font-['Space_Grotesk']">
         My <span className="text-[#ad90ef] text-4xl font-semibold">Work Experience</span> 
              {/* <Image

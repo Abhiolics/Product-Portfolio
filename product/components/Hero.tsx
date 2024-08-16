@@ -22,6 +22,7 @@ const wordss = [
 export default function BackgroundBeamsDemo() {
   return (
     <div className="h-[50rem] w-full bg-gray-950 relative flex items-center justify-center  antialiased p-10 ml-10 overflow-hidden ">
+
       <div className="max-w-6xl mx-auto p-4 flex flex-col lg:flex-row items-center lg:items-start justify-between z-20 ">
         <div className="lg:w-1/2 ">
           <h1 className="text-white text-xl font-['Bricolage_Grotesque']">Hey, I'm</h1>
@@ -35,16 +36,16 @@ export default function BackgroundBeamsDemo() {
 </svg> */}
         <div className="lg:w-1/2 mt-8 lg:mt-0 ">
           <Image
-            src={`/pm.png`}
+            src={`/01.svg`}
             alt="hero"
             height={520}
-            width={700}
+          
+            width={400}
             className="mx-auto rounded-2xl object-cover h-full object-left-top z-30"
             draggable={false}
           />
         </div>
       </div>
-      <BackgroundBeams />
     </div>
   );
 }
