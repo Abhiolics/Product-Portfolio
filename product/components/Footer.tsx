@@ -36,7 +36,7 @@ const Footer = () => {
         <h1 className="heading w-full lg:max-w-[85vw] text-2xl lg:text-4xl font-semibold  text-white font-['Space_Grotesk']">
           Ready to take your Digital
            Presence to the<span className="text-[#8b5cf6] text-2xl  lg:text-5xl font-semibold "><Cover> Next level?   <Image
-            src="/foot.svg"
+            src="/rocket.svg"
             width={40}
             height={40}
             alt="emoji"
