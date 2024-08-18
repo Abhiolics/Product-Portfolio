@@ -11,7 +11,7 @@ export default function AppleCardsCarouselDemo() {
   return (
     <div className="w-full h-full py-20 overflow-hidden p-10">
       <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-        Get to know your iSad.
+        Solving Some More Problems.
       </h2>
       <Carousel items={cards} />
     </div>
@@ -21,7 +21,7 @@ export default function AppleCardsCarouselDemo() {
 const DummyContent = () => {
   return (
     <>
-      {[...new Array(3).fill(1)].map((_, index) => {
+      {[...new Array(1).fill(1)].map((_, index) => {
         return (
           <div
             key={"dummy-content" + index}
@@ -29,20 +29,41 @@ const DummyContent = () => {
           >
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                The first rule of Apple club is that you boast about Apple club.
+              Introducing Premium Seating for Couples Seeking Comfort and Privacy.
               </span>{" "}
-              Keep a journal, quickly jot down a grocery list, and take amazing
-              class notes. Want to convert those notes to text? No problem.
-              Langotiya jeetu ka mara hua yaar is ready to capture every
-              thought.
+              The idea of introducing coupling seats to cater to couples who prefer corner seats is a strategic initiative that could positively impact both customer satisfaction and revenue generation. Here's how we could approach this concept -
             </p>
             <Image
-              src="https://assets.aceternity.com/macbook.png"
+              src="/s1.svg"
               alt="Macbook mockup from Aceternity UI"
               height="500"
               width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain rounded-l-3xl rounded-r-3xl"
             />
+          </div>
+        );
+      })},
+        {[...new Array(1).fill(1)].map((_, index) => {
+        return (
+          <div
+            key={"dummy-content" + index}
+            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+          >
+            <p className="text-white font-bold text-xl dark:text-white  md:text-2xl font-sans max-w-3xl mx-auto">
+              <span className="text-3xl font-bold text-neutral-700 dark:text-neutral-200">
+              Proposed Solution - <span className="text-pink-500">Coupling Seats</span> 
+              </span>{" "}
+              <br />
+              Design and Placement
+            </p>
+            
+            <h2 className="text-white text-xl">Private Coupling Seats</h2> <p className="text-white text-sm">Design specialized coupling seats that offer more privacy, such as a slight partition from adjacent seats, comfortable seating, and perhaps even amenities like shared armrests, cushions, or small tables.</p>
+
+            <h2 className="text-white text-xl">Strategic Placement</h2> <p className="text-white text-sm"> Place these coupling seats in areas that are traditionally less popular, such as near exits, back corners, or the front rows, making these spaces more desirable.</p>
+
+            <h2 className="text-white text-xl">Comfort and Luxury</h2> <p className="text-white text-sm"> To justify the price increase, ensure these seats offer premium comfort, such as recliners, extra legroom, or even small footrests.</p>
+            
+          
           </div>
         );
       })}
@@ -52,8 +73,8 @@ const DummyContent = () => {
 
 const data = [
   {
-    category: "Artificial Intelligence",
-    title: "You can do more with AI.",
+    category: "Couple’s Choice",
+    title: "Transforming Undesirable Areas into Premium Experiences for Couples.",
     src: "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=3556&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     content: <DummyContent />,
   },
