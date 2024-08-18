@@ -4,6 +4,8 @@ import { BackgroundBeams } from "./ui/background-beams";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import Image from "next/image";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
+import { Button } from "./ui/MovingBorders";
+import Link from "next/link";
 
 const words = `Excited about Problems & even more hyped about Solving them.`;
 
@@ -30,10 +32,23 @@ export default function BackgroundBeamsDemo() {
           <TextGenerateEffect words={words}  />
           <h1 className="text-white text-sm mt-8 font-light lg:text-3xl font-['Bricolage_Grotesque']"> 
           <TypewriterEffectSmooth words={wordss} /></h1>
+          <Link target="blank" href="https://drive.google.com/file/d/1Rb7NI6Qu95cOQexAD0zA7jblGKlZEOTL/view?usp=drivesdk">
+          <Button
+        borderRadius="1.75rem"
+        className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-200 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+      >
+        Download Resume
+      </Button> 
+      </Link>
+      <Link href={`/posts`}>
+      <button
+      
+        className="ml-4 shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400"
+      >
+        More About Me
+        </button>
+      </Link>
         </div>
-        {/* <svg width="200" height="11" viewBox="0 0 272 11" xmlns="http://www.w3.org/2000/svg">
-  <path fillRule="evenodd" clipRule="evenodd" d="M268.783 10.4905C165.145 1.45153 48.529 6.72521 3.20693 10.4914C1.83096 10.6057 0.622822 9.58298 0.508481 8.20702C0.394141 6.83105 1.41689 5.62291 2.79286 5.50857C48.2818 1.72852 165.201 -3.56253 269.217 5.50944C270.593 5.6294 271.61 6.84171 271.49 8.2172C271.37 9.59269 270.158 10.6105 268.783 10.4905Z"  stroke-width="4" fill="#14756E"/>
-</svg> */}
         <div className="lg:w-1/2 mt-8 lg:mt-0 ">
           <Image
             src={`/01.svg`}

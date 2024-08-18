@@ -18,7 +18,7 @@ const Footer = () => {
         borderRadius="1.75rem"
         className="bg-slate-700 font-['Space_Grotesk'] font-semibold  w-36 h-[3rem] dark:bg-slate-900 text-white dark:text-white border-slate-800 dark:border-slate-800"
       >
-        My thoughts 
+       More About Me
       </Button>
       
       </Link>

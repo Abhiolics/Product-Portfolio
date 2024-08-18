@@ -5,7 +5,7 @@ export default function InfiniteMovingCardsDemo() {
   return (
     <div className=" h-[30rem] mt-20 hidden lg:block">
       <h1 className="text-2xl  lg:text-4xl font-semibold text-center mt-8 text-white font-['Space_Grotesk'] ">Valuable <span className="text-[#8b5cf6] text-4xl font-semibold">Words </span> </h1>
-    <div className="hidden md:block mt-8=10 p-2 rounded-md flex flex-col antialiased bg-white dark:bg-transparent dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="hidden md:block mt-8=10 p-2 rounded-md flex flex-col antialiased bg-white dark:bg-transparent  items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
